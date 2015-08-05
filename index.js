@@ -10,7 +10,7 @@ var fileToRead = opts[0];
 var loadedFile;
 try {
   // use require so that we can work with either pure JSON or fancy js
-  loadedFile = require(path.resolve(__dirname, fileToRead));
+  loadedFile = require(path.resolve(process.cwd(), fileToRead));
 } catch (err) {
   // well we could not load the file correctly, so send out an error and exit
   console.error(err);
