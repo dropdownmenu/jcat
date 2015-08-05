@@ -1,0 +1,20 @@
+{
+  "name": "jcat",
+  "version": "1.0.0",
+  "description": "cats out json arrays to stdout",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cat",
+    "json",
+    "jcat"
+  ],
+  "author": "dropdownmenu",
+  "license": "MIT",
+  "dependencies": {
+    "nomnom": "^1.8.1"
+  }
+}
