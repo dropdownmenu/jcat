@@ -1,5 +1,7 @@
 # jcat
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kiernanmcgowan/jcat.svg)](https://greenkeeper.io/)
+
 Utility script to cat json arrays.
 
 ```
